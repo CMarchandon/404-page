@@ -1,0 +1,171 @@
+/*colors: 
+p {
+color ligth blue : #4dccbd;
+color dark blue: #2374AB
+color ligth pink : #ff8484
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header Julien */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    z-index: 10;
+    justify-content: center;
+}
+
+header .logo {
+    position: fixed;
+    font-size: 3.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1400px;
+}
+
+header .logo:hover {
+    color: #ff8484
+}
+
+header .navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: transparent;
+}
+
+header .navigation li {
+    list-style: none;
+    margin: 0px 25px;
+}
+
+header .navigation li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    color: white;
+    background-color: transparent;
+}
+
+header .navigation li a.dark-theme{
+    color: white;
+}
+
+header .navigation li a:hover {
+    color: #ff8484
+}
+
+/* Header moi -> cassé
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+}
+
+li {
+    list-style: none;
+    margin: 0px 25px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.logo {
+    position: relative;
+    font-size: 3.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logo, .othersPages {
+    color: white;
+    text-decoration: none;
+}
+
+*/
+
+
+body, header, footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2374AB;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+h2 {
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+    
+}
+
+
+#textBlock {
+    margin-top: 250px;
+}
+
+#button {
+    background-color: #ff8484;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+#button:hover {
+    background-color: white;
+    color: #2374AB;
+}
+
+#copyrigth {
+    position: absolute;
+    font-size: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
