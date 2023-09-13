@@ -2,7 +2,7 @@
 
 This presentation is a small training project created for BeCode.org. It utilizes HTML and CSS to create a simple 404 page. You can view the live presentation by clicking the following link:
 
-[View Presentation]([https://cmarchandon.github.io/markdown-to-html/](https://cmarchandon.github.io/404-page/))
+[View Presentation](https://cmarchandon.github.io/404-page/)
 
 ## Note
 
